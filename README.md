@@ -16,6 +16,14 @@ This was a two-person project. I built the Sales Recording module, which connect
 
 The sales history captured by this module also supports reporting and provides the demand data used to calculate features for expiry-risk prediction.
 
+### Sales Recording Demo
+
+![Sales Recording screen showing the point-of-sale form, daily totals, and sales history](./sales-recording.png)
+
+The sales screen lets staff add products to a bill and review recorded transactions. Stock is allocated from the earliest-expiring eligible batches using First Expire, First Out (FEFO).
+
+[View the Sales Recording design diagram](./sales-recording-design.png) to see how transactions, line items, and batch allocations relate.
+
 ## Architecture
 
 | Component | Technology | Location |
